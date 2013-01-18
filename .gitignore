@@ -1,0 +1,15 @@
+#
+# Android
+#
+
+/.apt_generated/
+/bin/
+/gen/
+/local.properties
+
+#
+# Third party libraries
+#
+
+/libs/*.jar
+/support/jars/*.jar

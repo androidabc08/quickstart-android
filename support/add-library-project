@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+#
+# add-library-project - Add Android library project as git submodule
+# Written by Lorenzo Villani in 2013. Released as Public Domain.
+#
+
+import os
+
+# Git URLs
+PROJECTS = {
+    "": ""
+}
+
+if __name__ == "__main__":
+    pass

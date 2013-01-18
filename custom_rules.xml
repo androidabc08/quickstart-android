@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project xmlns:cs="antlib:com.puppycrawl.tools.checkstyle"
+         xmlns:ivy="antlib:org.apache.ivy.ant">
+    <!-- ========== -->
+    <!-- Apache Ivy -->
+    <!-- ========== -->
+    <target name="resolve">
+        <ivy:retrieve pattern="[conf]/[artifact](-[classifier])-[revision].[ext]" />
+    </target>
+</project>

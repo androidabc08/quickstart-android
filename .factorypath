@@ -1,0 +1,5 @@
+<factorypath>
+    <factorypathentry kind="WKSPJAR" id="/quickstart-android/libs-eclipse/androidannotations-2.7.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/quickstart-android/libs-eclipse/androidannotations-api-2.7.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/quickstart-android/libs-eclipse/codemodel-2.4.1.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>

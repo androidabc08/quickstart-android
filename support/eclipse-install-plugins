@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eux
+
+eclipse -nosplash \
+    -application org.eclipse.equinox.p2.director \
+    -repository http://eclipse-cs.sf.net/update \
+    -repository http://findbugs.cs.umd.edu/eclipse/ \
+    -installIU net.sf.eclipsecs.feature.group \
+    -installIU edu.umd.cs.findbugs.plugin.eclipse.feature.group

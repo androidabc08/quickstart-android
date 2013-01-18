@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+#
+# add-library-project - Add Android library project as git submodule
+# Written by Lorenzo Villani in 2013. Released as Public Domain.
+#
+
+import os
+
+# Paths relative to ANDROID_HOME
+LIBRARIES = {
+    "support-v4": "extras/android/support/v4/android-support-v4.jar",
+    "support-v13": "extras/android/support/v13/android-support-v13.jar",
+}
+
+if __name__ == "__main__":
+    pass

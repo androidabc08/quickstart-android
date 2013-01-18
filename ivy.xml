@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ivy-module version="2.0">
+    <info module="quickstart-android"
+          organisation="bitflow" />
+    <!-- ============== -->
+    <!-- Configurations -->
+    <!-- ============== -->
+    <configurations>
+        <conf description="Library API Jars"
+              name="libs" />
+        <conf description="Eclipse support libraries"
+              name="libs-eclipse" />
+    </configurations>
+    <!-- ============ -->
+    <!-- Dependencies -->
+    <!-- ============ -->
+    <dependencies>
+        <!-- Android Annotations -->
+        <dependency conf="libs-eclipse-&gt;default"
+                    name="androidannotations"
+                    org="com.googlecode.androidannotations"
+                    rev="2.7" />
+        <dependency conf="libs-&gt;default"
+                    name="androidannotations-api"
+                    org="com.googlecode.androidannotations"
+                    rev="2.7" />
+    </dependencies>
+</ivy-module>
