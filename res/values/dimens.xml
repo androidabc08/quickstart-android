@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ============================================================ -->
+	<!-- Android Metric And Grids -->
+	<!-- http://developer.android.com/design/style/metrics-grids.html -->
+	<!-- ============================================================ -->
+	<!-- Margin of the side of the screen -->
+	<dimen name="grid_margin_aside">16dp</dimen>
+	<!-- Inner padding for containers -->
+	<dimen name="grid_padding">4dp</dimen>
+	<!-- Spacing between UI elements -->
+	<dimen name="grid_spacing">8dp</dimen>
+	<!-- Base rhythm -->
+	<dimen name="grid_unit">48dp</dimen>
+</resources>
